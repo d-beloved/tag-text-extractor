@@ -1,7 +1,7 @@
 // This code runs on the active tab when the extension is clicked
 
 // Get the tag name entered by the user
-chrome.storage.sync.get('tag', function(data) {
+chrome.storage?.sync.get('tag', function(data) {
   let tagName = data.tag;
 
   // Get all elements with the specified tag name

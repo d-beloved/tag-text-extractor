@@ -1,5 +1,5 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Tag Text Extractor",
   "version": "1.0",
   "description": "A tool for extracting text within a specific HTML tag",
@@ -9,7 +9,7 @@
     "128": "icons/ico.png"
   },
   "permissions": ["activeTab"],
-  "browser_action": {
+  "action": {
     "default_icon": "icons/ico.png",
     "default_popup": "popup.html"
   },
